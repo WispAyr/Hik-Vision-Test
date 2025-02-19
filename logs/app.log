@@ -1,0 +1,195 @@
+[2025-02-19T11:40:33.467Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:40:33.476Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:40:33.476Z] [INFO] Starting TCP Server...
+[2025-02-19T11:40:33.477Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:40:33.477Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:40:34.968Z] [INFO] New TCP connection from ::ffff:127.0.0.1:54216
+[2025-02-19T11:40:34.980Z] [INFO] Connection ended from ::ffff:127.0.0.1:54216
+[2025-02-19T11:40:34.981Z] [DEBUG] Processing TCP request, data size: 0 bytes
+[2025-02-19T11:40:34.991Z] [ERROR] Error processing TCP ANPR data: - Error: req.on is not a function
+Stack: TypeError: req.on is not a function
+    at Form.parse (/Users/wispayr/hik test/node_modules/multiparty/index.js:147:7)
+    at /Users/wispayr/hik test/src/tcpServer.js:90:22
+    at new Promise (<anonymous>)
+    at TCPServer.handleRequest (/Users/wispayr/hik test/src/tcpServer.js:89:31)
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/tcpServer.js:37:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:40:34.992Z] [ERROR] Stack Trace: - TypeError: req.on is not a function
+    at Form.parse (/Users/wispayr/hik test/node_modules/multiparty/index.js:147:7)
+    at /Users/wispayr/hik test/src/tcpServer.js:90:22
+    at new Promise (<anonymous>)
+    at TCPServer.handleRequest (/Users/wispayr/hik test/src/tcpServer.js:89:31)
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/tcpServer.js:37:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:43:53.683Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:43:53.691Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:43:53.692Z] [INFO] Starting TCP Server...
+[2025-02-19T11:43:53.692Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:43:53.692Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:43:54.579Z] [INFO] New TCP connection from ::ffff:127.0.0.1:65117
+[2025-02-19T11:43:54.580Z] [INFO] Connection ended from ::ffff:127.0.0.1:65117
+[2025-02-19T11:43:54.581Z] [DEBUG] Processing TCP request, data size: 0 bytes
+[2025-02-19T11:43:54.587Z] [ERROR] Form parsing error: - Error: stream ended unexpectedly
+Stack: BadRequestError: stream ended unexpectedly
+    at Form.<anonymous> (/Users/wispayr/hik test/node_modules/multiparty/index.js:787:24)
+    at Form.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:945:10)
+    at node:internal/streams/writable:926:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:43:54.588Z] [ERROR] Stack Trace: - BadRequestError: stream ended unexpectedly
+    at Form.<anonymous> (/Users/wispayr/hik test/node_modules/multiparty/index.js:787:24)
+    at Form.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:945:10)
+    at node:internal/streams/writable:926:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:43:54.588Z] [ERROR] Error processing TCP ANPR data: - Error: stream ended unexpectedly
+Stack: BadRequestError: stream ended unexpectedly
+    at Form.<anonymous> (/Users/wispayr/hik test/node_modules/multiparty/index.js:787:24)
+    at Form.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:945:10)
+    at node:internal/streams/writable:926:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:43:54.589Z] [ERROR] Stack Trace: - BadRequestError: stream ended unexpectedly
+    at Form.<anonymous> (/Users/wispayr/hik test/node_modules/multiparty/index.js:787:24)
+    at Form.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:945:10)
+    at node:internal/streams/writable:926:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:45:13.908Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:45:13.917Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:45:13.917Z] [INFO] Starting TCP Server...
+[2025-02-19T11:45:13.918Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:45:13.918Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:45:14.198Z] [INFO] Client connected
+[2025-02-19T11:45:27.799Z] [INFO] Client connected
+[2025-02-19T11:45:29.245Z] [INFO] New TCP connection from ::ffff:127.0.0.1:53659
+[2025-02-19T11:45:29.246Z] [INFO] Connection ended from ::ffff:127.0.0.1:53659
+[2025-02-19T11:45:29.247Z] [DEBUG] Processing TCP request, data size: 0 bytes
+[2025-02-19T11:45:29.248Z] [ERROR] Error processing TCP ANPR data: - Error: Empty request data received
+Stack: Error: Empty request data received
+    at TCPServer.handleRequest (/Users/wispayr/hik test/src/tcpServer.js:74:23)
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/tcpServer.js:37:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:45:29.251Z] [ERROR] Stack Trace: - Error: Empty request data received
+    at TCPServer.handleRequest (/Users/wispayr/hik test/src/tcpServer.js:74:23)
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/tcpServer.js:37:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:46:15.170Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:46:15.172Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:46:15.172Z] [INFO] Starting TCP Server...
+[2025-02-19T11:46:15.172Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:46:15.172Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:46:16.649Z] [INFO] New TCP connection from ::ffff:127.0.0.1:52880
+[2025-02-19T11:46:16.654Z] [INFO] Connection ended from ::ffff:127.0.0.1:52880
+[2025-02-19T11:46:16.655Z] [DEBUG] Processing TCP request, data size: 0 bytes
+[2025-02-19T11:46:16.656Z] [ERROR] Error processing TCP ANPR data: - Error: Empty request data received
+Stack: Error: Empty request data received
+    at TCPServer.handleRequest (/Users/wispayr/hik test/src/tcpServer.js:74:23)
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/tcpServer.js:37:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:46:16.659Z] [ERROR] Stack Trace: - Error: Empty request data received
+    at TCPServer.handleRequest (/Users/wispayr/hik test/src/tcpServer.js:74:23)
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/tcpServer.js:37:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-02-19T11:47:27.859Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:47:27.867Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:47:27.868Z] [INFO] Starting TCP Server...
+[2025-02-19T11:47:27.868Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:47:27.869Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:47:29.667Z] [INFO] New TCP connection from ::ffff:127.0.0.1:61359
+[2025-02-19T11:47:29.675Z] [INFO] Connection ended from ::ffff:127.0.0.1:61359
+[2025-02-19T11:48:58.682Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:48:58.683Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:48:58.683Z] [INFO] Starting TCP Server...
+[2025-02-19T11:48:58.683Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:48:58.684Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:49:01.230Z] [INFO] Client connected
+[2025-02-19T11:49:01.234Z] [INFO] Client connected
+[2025-02-19T11:49:08.610Z] [INFO] New TCP connection from ::ffff:127.0.0.1:63219
+[2025-02-19T11:49:11.314Z] [INFO] Connection ended from ::ffff:127.0.0.1:63219
+[2025-02-19T11:50:19.806Z] [INFO] Server running at http://localhost:3000
+[2025-02-19T11:50:19.813Z] [DEBUG] Debug logging enabled
+[2025-02-19T11:50:19.814Z] [INFO] Starting TCP Server...
+[2025-02-19T11:50:19.814Z] [DEBUG] Application initialized successfully
+[2025-02-19T11:50:19.816Z] [INFO] TCP Server listening on port 9001
+[2025-02-19T11:50:20.091Z] [INFO] Client connected
+[2025-02-19T11:50:21.627Z] [INFO] New TCP connection from ::ffff:127.0.0.1:55078
+[2025-02-19T11:50:21.654Z] [INFO] Connection ended from ::ffff:127.0.0.1:55078
+[2025-02-19T11:50:21.654Z] [WARN] Received data too small (0 bytes) from ::ffff:127.0.0.1:55078
+[2025-02-19T11:50:42.884Z] [INFO] Client connected
+[2025-02-19T11:50:51.900Z] [INFO] Client connected
+[2025-02-19T11:50:52.149Z] [INFO] New TCP connection from ::ffff:127.0.0.1:63927
+[2025-02-19T11:50:52.178Z] [INFO] Connection ended from ::ffff:127.0.0.1:63927
+[2025-02-19T11:50:52.179Z] [WARN] Received data too small (0 bytes) from ::ffff:127.0.0.1:63927
+[2025-02-19T11:51:00.756Z] [INFO] Client connected
+[2025-02-19T11:51:14.970Z] [INFO] Attempting to connect to camera 10.32.73.39 at 10.32.73.39:40080
+[2025-02-19T11:51:15.000Z] [DEBUG] Initiating authentication process - {
+  "camera": {
+    "name": "10.32.73.39",
+    "ip": "10.32.73.39",
+    "port": "40080"
+  }
+}
+[2025-02-19T11:51:15.015Z] [DEBUG] Creating Hikvision camera instance - {
+  "host": "10.32.73.39",
+  "port": "40080",
+  "username": "admin"
+}
+[2025-02-19T11:51:15.051Z] [DEBUG] Testing connection by fetching device info
+[2025-02-19T11:51:18.725Z] [INFO] Client disconnected
+[2025-02-19T11:51:29.872Z] [INFO] Client connected
+[2025-02-19T11:51:30.185Z] [ERROR] Failed to verify camera 10.32.73.39: - Error: The user aborted a request.
+Stack: AbortError: The user aborted a request.
+    at abort (/Users/wispayr/hik test/node_modules/node-fetch/lib/index.js:1458:16)
+    at EventTarget.abortAndFinalize (/Users/wispayr/hik test/node_modules/node-fetch/lib/index.js:1473:4)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:826:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:761:26)
+    at abortSignal (node:internal/abort_controller:371:10)
+    at Timeout._onTimeout (node:internal/abort_controller:128:7)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[2025-02-19T11:51:30.189Z] [ERROR] Stack Trace: - AbortError: The user aborted a request.
+    at abort (/Users/wispayr/hik test/node_modules/node-fetch/lib/index.js:1458:16)
+    at EventTarget.abortAndFinalize (/Users/wispayr/hik test/node_modules/node-fetch/lib/index.js:1473:4)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:826:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:761:26)
+    at abortSignal (node:internal/abort_controller:371:10)
+    at Timeout._onTimeout (node:internal/abort_controller:128:7)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[2025-02-19T11:51:30.190Z] [ERROR] Error connecting to camera 10.32.73.39: - Error: Connection timed out. Please check if the camera is reachable at 10.32.73.39:40080
+Stack: Error: Connection timed out. Please check if the camera is reachable at 10.32.73.39:40080
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/index.js:82:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-19T11:51:30.192Z] [ERROR] Stack Trace: - Error: Connection timed out. Please check if the camera is reachable at 10.32.73.39:40080
+    at Socket.<anonymous> (/Users/wispayr/hik test/src/index.js:82:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-19T11:51:32.520Z] [INFO] New TCP connection from ::ffff:127.0.0.1:64516
+[2025-02-19T11:51:32.672Z] [INFO] Connection ended from ::ffff:127.0.0.1:64516
+[2025-02-19T11:51:32.674Z] [WARN] Received data too small (0 bytes) from ::ffff:127.0.0.1:64516
+[2025-02-19T11:51:36.948Z] [INFO] Client disconnected
+[2025-02-19T11:51:50.028Z] [INFO] Client connected
+[2025-02-19T11:52:00.631Z] [INFO] Client disconnected
+[2025-02-19T11:52:09.435Z] [INFO] Client connected
+[2025-02-19T11:52:10.126Z] [INFO] New TCP connection from ::ffff:127.0.0.1:51329
+[2025-02-19T11:52:10.137Z] [INFO] Connection ended from ::ffff:127.0.0.1:51329
+[2025-02-19T11:52:10.147Z] [WARN] Received data too small (0 bytes) from ::ffff:127.0.0.1:51329
+[2025-02-19T11:52:29.606Z] [INFO] Client connected
+[2025-02-19T11:52:35.070Z] [INFO] Client disconnected
+[2025-02-19T11:52:45.235Z] [INFO] Client connected
+[2025-02-19T11:52:47.056Z] [INFO] New TCP connection from ::ffff:127.0.0.1:50298
+[2025-02-19T11:52:47.077Z] [INFO] Connection ended from ::ffff:127.0.0.1:50298
+[2025-02-19T11:52:47.078Z] [WARN] Received data too small (0 bytes) from ::ffff:127.0.0.1:50298
+[2025-02-19T11:52:54.367Z] [INFO] Client disconnected
